@@ -1,10 +1,20 @@
 [
   {
-    "repository": "android_device_qcom_common",
+    "remote": "github",
+    "revision": "cm-14.1",
+    "repository": "LineageOS/android_device_qcom_common",
     "target_path": "device/qcom/common"
   },
   {
-    "repository": "android_kernel_xiaomi_armani",
+    "remote": "github",
+    "revision": "cm-14.x",
+    "repository": "hemantbeast/xiaomi_armani_kernel",
     "target_path": "kernel/xiaomi/armani"
+  },
+  {
+    "remote": "github",
+    "revision": "armani-nougat",
+    "repository": "mandroject/8ecd9163adef29e1e19ea2707d97cb08",
+    "target_path": "vendor/xiaomi"
   }
 ]
